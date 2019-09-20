@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --prod",
+    "build:githubpages": "ng build --prod --output-path docs --base-href /angular-netlify-cms/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
