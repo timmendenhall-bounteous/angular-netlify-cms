@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NetlifyCmsComponent } from './netlify-cms/netlify-cms.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NetlifyCmsComponent
   ],
   imports: [
     BrowserModule,
